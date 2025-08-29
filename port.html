@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+    <script src="assets/fontawesome-free-6.7.2-web/js/all.js" crossorigin="anonymous"></script>
+  </head>
+<body>
+    <div id="header">
+     <div class="container">
+<nav>
+  <h1 class="logo">INNOCENT</h1>
+  <ul id="sidemenu">
+    <li><a href="#header"> Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services"> Services</a></li>
+    <li><a href="#portfolio"> Portfolio</a></li>
+    <li><a href="#contact"> contact</a></li>
+    <i class="fas fa-times"onclick="closemenu()"></i> 
+  </ul>
+  <i class="fas fa-bars" onclick="openmenu()"></i>
+</nav>
+<div class="header-text">
+  <h5>Web Developer / Graphic Designer</h5>
+  <h1>Hello, I'm <span>INNOCENT</span><br>From Cameroon</h1>
+</div>
+     </div> 
+    </div>
+    <div id="about">
+    <div class="container">
+      <div class ="row">
+     <div  class ="about-col-1">
+      <img src="in.jpg">
+     </div>
+     <div class="about-col-2">
+     <h1 class="sub-title">About Me</h1>
+     <p>Welcome to my portfolio! I'm a driven and ambitious Level 2 student passionate about harnessing technology to drive innovation and creativity.
+       With a solid foundation in web development and graphic design, I'm now expanding my skill set to include Artificial Intelligence (AI).
+        My goal is to develop cutting-edge solutions that make a meaningful impact. 
+       Through continuous learning and hands-on experience, I'm committed to staying at the forefront of technological advancements.<br>
+       This portfolio showcases my projects, experiences, and aspirations, highlighting my growth and dedication to becoming a versatile and innovative technologist.
+        Explore my work and let's create something amazing together!
+      Discover my journey as a tech enthusiast! With expertise in web development and graphic design, I'm now venturing into AI.
+       Explore my portfolio to see how I'm pushing boundaries and creating innovative solutions. Let's collaborate and bring your ideas to life!
+      </p>
+      <div class="tab-titles">
+         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+         <p class="tab-links" onclick="opentab('experience')">Experience</p>
+         <p class="tab-links" onclick="opentab('education')">Education</p> 
+      </div>
+      <div class="tab-contents active-tab"  id="skills">
+<ul>
+  <Li><span>Web Development </span><br> Web / App devevelopment</Li>
+  <Li><span>Graphic design </span><br>Logos and Flyers</Li>
+  <Li><span>App Development </span><br>Building Android apps</Li>
+</ul>
+      </div>
+      <div class="tab-contents"  id="experience">
+        <ul>
+          <Li><span>2025-current</span><br>Software Engineering Professional Traininig school At NFONAP.</Li>
+          <Li><span>2025-current</span><br>Internship at Eschosys</Li>
+        </ul>
+              </div>
+              <div class="tab-contents " id="education">
+                <ul>
+                  <Li><span>2018 </span><br> FSLC / common </Li>
+                  <Li><span>2022 </span><br>GCE Ordinary Level</Li>
+                  <Li><span>2024 </span><br>GCE Advanced Level</Li>
+                </ul>
+                      </div>
+                    </div>
+                 </div>
+            </div>
+       </div>
+  </div>
+  <div id="services">
+<div class="container">
+  <h1 class="sub-title">My Services</h1>
+  <div class="services-list">
+    <div>
+      <i class="fas fa-code"></i>
+      <h2>Web Development</h2>
+      <p>Unlock your online potential with web development. 
+        I design and build stunning,functional websites and 
+        web apps that drive business growth,engage users,and 
+        boost your brand's online presence.Lets build a digital 
+        platform that takes your business to the next level.
+      </p>
+      <a href="#">learn more</a>
+    </div>
+    <div>
+      <i class="fas fa-crop-alt"></i>
+    <h2> UX/UI Design</h2>
+    <p> Elevate your brands visual Identity with graphic design.
+     I craft stunning logos,brochures,and digital assets that 
+     capture your unique voice and style,helping you stand out and leave
+     a lasting impression.Let's design a visual story that resonates with your audience.
+    </p>
+    <a href="#">learn more</a>
+  </div>
+  <div>
+    <i class="fab fa-app-store"></i>
+  <h2>App Development</h2>
+  <p>Transform your mobile presence with app development.
+     I craft intuitive,user-friendly apps that drive engagement,boost brand loyalty
+     and unlock new business opportunities.Let's build  an app that takes your business mobile.
+  </p> 
+  <a href="#">learn more</a>
+</div>
+  </div>
+</div>
+  </div>
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My work</h1>
+      <div class ="work-list">
+          <div class="work">
+            <img src="assets/images/web 2.jpg" >
+            <div class="layer">
+              <h3>Website App</h3>
+              <p> Websites drive business growth,engage users,and 
+                boost your brand's online presence.</p>
+                <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="assets/images/UX_UI.png" >
+            <div class="layer">
+            <h3>UX/UI design</h3>
+            <p>  Prototyping  helps stand out and leave
+              a lasting impression.</p>
+                <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="assets/images/android.jpg" >
+            <div class="layer">
+              <h3>Android App</h3>
+              <p> Android Apps that drive engagement,boost brand loyalty
+                and unlock new business opportunities</p>
+                <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fas fa-paper-plane"></i> Topboy33@gmail.com</p>
+          <p><i class="fas fa-phone-square-alt"></i> 659572294</p>
+          <div class="social-icons">
+<a href="#"><i class="fa-brands fa-facebook"></i></a>
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+<a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="assets/ALL HND 2022.pdf"  download class="btn btn2">Download Cv </a>
+        </div>
+          <div class="contact-right">
+                    <form>
+                      <input type="text" name="Name" placeholder="Enter Your Name" required>
+                      <input type="email" name="Email" placeholder="Enter Your Email" required>
+                      <textarea name="Message"  rows="6" placeholder="Enter Your Message"></textarea>
+                   <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+          </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © INNOCENT<i class="fas fa-heart"></i>.</p>
+    </div>
+  </div>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+  
+    function opentab(tabname) {
+      for (let i = 0; i < tablinks.length; i++) {
+        tablinks[i].classList.remove("active-link")
+      }
+  
+      for (let i = 0; i < tabcontents.length; i++) {
+        tabcontents[i].classList.remove("active-tab")
+      }
+
+      event.currentTarget.classList.add("active-link")
+      document.getElementById(tabname).classList.add("active-tab");
+      document.getElementById(tabname).scrollIntoView({ behavior: 'slowly' })
+    }
+  </script>
+
+  <script>
+
+  var sidemenu =document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemenu.style.right ="0";
+  }
+  function closemenu(){
+    sidemenu.style.right ="-200px";
+  }
+  </script>
+
+</body>
+</html>
